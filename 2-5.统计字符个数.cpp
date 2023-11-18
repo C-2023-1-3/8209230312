@@ -5,8 +5,7 @@ int main()
 {
 	int letters=0, space=0, digits=0, others=0;
 	char c;
-	cout << "ÇëÊäÈë×Ö·û´®" << endl;
-	cin >> c;
+	cout << "è¯·è¾“å…¥å­—ç¬¦ä¸²" << endl;
 	while ((c = getchar()) != '\n') {
 		if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
 		{
@@ -25,10 +24,10 @@ int main()
 			others++;
 		}
 	}
-	cout << "×ÖÄ¸ÓĞ£º" <<letters<< endl;
-	cout << "¿Õ¸ñÓĞ£º" << space << endl;
-	cout << "Êı×ÖÓĞ£º" << digits << endl;
-	cout << "ÆäËûÓĞ£º" << others << endl;
+	cout << "å­—æ¯æœ‰ï¼š" <<letters<< endl;
+	cout << "ç©ºæ ¼æœ‰ï¼š" << space << endl;
+	cout << "æ•°å­—æœ‰ï¼š" << digits << endl;
+	cout << "å…¶ä»–æœ‰ï¼š" << others << endl;
 	
 	return 0;
 
